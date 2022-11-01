@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bibliotheque-pelerins-client-side-solution",
+    "id": "ccca5e3c-e268-4410-a8e8-2d62eff09966",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "BibliothequePelerins description"
+      },
+      "longDescription": {
+        "default": "BibliothequePelerins description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bibliotheque-pelerins Feature",
+        "description": "The feature that activates elements of the bibliotheque-pelerins solution.",
+        "id": "e52f9fd1-1283-4493-8377-1d99663be1ad",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bibliotheque-pelerins.sppkg"
+  }
+}

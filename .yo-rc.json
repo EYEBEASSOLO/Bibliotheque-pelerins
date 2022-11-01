@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "bibliotheque-pelerins",
+    "libraryId": "ccca5e3c-e268-4410-a8e8-2d62eff09966",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "BibliothequePelerins",
+    "solutionShortDescription": "BibliothequePelerins description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

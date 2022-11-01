@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Ajustement des grilles*/
+
+.ms-Grid-col {
+    margin-bottom: 2% !important;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.flexed {
+    width: 50%;
+}
+
+
+/*champ metadonnée gérée*/
+
+input,
+input::placeholder {
+    font-size: 0.8vw!important;
+    color: #9d9d9d !important;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 0!important;
+}
+
+.ms-TextField-fieldGroup::placeholder {
+    font-size: 0.8vw!important;
+    color: #9d9d9d !important;
+    padding: 0!important;
+}
+
+.pickedTermRoot_a9d889b0 {
+    background: #fff!important;
+    color: #2A64B2!important;
+    border: 1px solid #2A64B2!important;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
+/*icônes du formulaire*/
+
+[data-icon-name="Tag"],
+[data-icon-name="Calendar"] {
+    color: #2A64B2 !important;
+    font-size: 1.3vw!important;
+    line-height: unset!important;
+    pointer-events: unset!important;
+    position: unset!important;
+    right: unset!important;
+    top: unset!important;
+    cursor: pointer!important;
+}
+
+
+/*Obligatoire*/
+
+.requiredFieldStar {
+    color: red;
+}
+
+
+/*Boite de dialogue*/
+
+.ms-Dialog-main {
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.ms-Dialog-content {
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+
+/*afficher/cacher formulaire*/
+
+.enabledForm {
+    display: block;
+}
+
+.disabledForm {
+    display: none;
+}
+
+.lectureRes {
+    margin-left: 10px !important;
+    margin-bottom: 0!important;
+}
+
+.labelConsulter {
+    font-size: 0.8vw;
+    color: #4C4C4C;
+}
+
+.spanConsulter {
+    font-size: 0.8vw;
+    color: black;
+}
+
+.colonneConsulterLabel {
+    min-width: 40%;
+}
+
+.boutonOk {
+    float: right;
+}
+
+
+/*general*/
+
+.formulaireRequete_ad9e00f6 {
+    font-size: 0.8vw;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.mainRow {
+    background-color: #F1F0F7 !important;
+    margin-left: unset!important;
+    margin-right: unset!important;
+    margin-top: unset!important;
+    margin-bottom: 3% !important;
+}
+
+.titleRow {
+    background-color: #fff !important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.buttonRow {
+    background-color: #fff !important;
+    margin-left: unset!important;
+    margin-right: unset!important;
+    margin-top: 5%!important;
+    margin-bottom: 5% !important;
+    padding: 0!important;
+}
+
+.formulaireRequete_ad9e00f6 .container_ad9e00f6 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*titre formulaire*/
+
+.titreForm {
+    color: #4C4C4C;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.titreFormH2 {
+    color: #2A64B2;
+    font-size: 1.2vw;
+    font-weight: 700;
+    width: 70%;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+
+/*Label*/
+
+.ms-Label {
+    color: #4C4C4C;
+    font-weight: bold;
+}
+
+.ms-Button-label {
+    font-weight: normal;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.lightLabel {
+    color: #4C4C4C;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+
+/*champs text*/
+
+.ms-TextField-field {
+    font-size: 0.8vw!important;
+    color: #4C4C4C !important;
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.ms-TextField-field::placeholder {
+    font-size: 0.8vw!important;
+    color: #9d9d9d !important;
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.ms-TextField-fieldGroup {
+    border-radius: 10px;
+    border: 1px solid #2A64B2;
+    padding: 10px;
+    min-height: 2.5vw;
+}
+
+
+/*champ term*/
+
+.ms-BasePicker {
+    border-radius: 10px;
+    border: 1px solid #2A64B2;
+    padding: 10px;
+    color: #4C4C4C;
+}
+
+.ms-BasePicker-text {
+    border: none;
+}
+
+.ms-BasePicker-input {
+    font-size: 0.8vw !important;
+}
+
+input {
+    font-size: 0.8vw !important;
+}
+
+
+/*boutons*/
+
+.ms-Button--default {
+    color: #2A64B2;
+    border: 2px solid #2A64B2;
+    margin-right: 0.8vw;
+    padding: 1.5vw !important;
+}
+
+/*Dropdown*/
+
+.ms-Dropdown-title {
+    border-radius: 10px !important;
+    border: 1px solid #2A64B2 !important;
+    padding: 10px !important;
+    min-height: 2.5vw !important;
+    font-size: .8vw !important;
+    line-height: unset;
+}
+
+.ms-Dropdown-caretDownWrapper {
+    line-height: 50px !important;
+}
+
+.ms-Button--default:hover {
+    color: #2A64B2;
+}
+
+.ms-Button--primary {
+    border: 2px solid #2A64B2;
+    background-color: #2A64B2;
+    padding: 1.5vw !important;
+}
+
+.ms-Button {
+    padding: 0.8vw;
+    font-size: 0.9vw;
+}
+
+.buttonWrap {
+    /*margin-top: 0.8vw;*/
+    float: right;
+}
+
+
+/*on cache le titre de la page*/
+
+.webPartContainer {
+    display: none !important;
+}
+
+
+/*read form*/
+
+.readRow .readDiv:nth-child(odd) {
+    background-color: #F1F0F7;
+    padding: 2%;
+}
+
+.readRow .readDiv:nth-child(even) {
+    background-color: #fff;
+    padding: 2%;
+}
+
+
+/*notiflix*/
+
+.loading-message {
+    text-shadow: 1px 1px black;
+}
+
+[id^=NotiflixConfirmWrap]>div[class*="-content"]>div[class*="-head"]>h5 {
+    border-bottom: none !important;
+}
