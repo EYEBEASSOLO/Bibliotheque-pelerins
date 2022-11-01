@@ -3,7 +3,7 @@ export default class Constantes {
         IDTypeContenu: '0x01200093849808AC583D4FA7E8A2BA4545E3C7007CC80AA3E02CC2409C929FBF862A302B',
         TitreTypeContenu: 'Document Biblio',
         StatutTacheNouvelle: 'Nouvelle',
-        NomChampRepondantTache: "MJQGencoRepondantTache"
+        NomChampRepondantTache: "MJQGencoRepondantTache"  
     };
 
     public static dataRequete = {
